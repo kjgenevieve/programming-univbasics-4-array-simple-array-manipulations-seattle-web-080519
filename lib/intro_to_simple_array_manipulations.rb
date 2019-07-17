@@ -18,18 +18,18 @@ end
 
 # This method takes in an argument of an Array and uses the .pop method with an argument of 2 to remove the last two array items and return them.
 
-def using_shift
-  
+def using_shift(array)
+  array.shift
 end
 # This method takes in an argument of an Array and uses the .shift method to remove the first item and return it.
 
-def shift_with_args
-  
+def shift_with_args(array)
+  array.shift(2)
 end
 # This method takes in an argument of an Array and uses the .shift method with an argument of 2 to remove and return the first 2 items from the array.
 
-def using_concat
-  
+def using_concat(array_1, array_2)
+  array_1 = array_2.concat
 end
 # This method takes in two arguments of two different arrays and uses the .concat method to add the contents of the second array to the first.
 
