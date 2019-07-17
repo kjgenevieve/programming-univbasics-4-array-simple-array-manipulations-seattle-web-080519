@@ -34,7 +34,7 @@ end
 # This method takes in two arguments of two different arrays and uses the .concat method to add the contents of the second array to the first.
 
 def using_insert(array, new_element)
-  .insert(4)
+  array.insert(4, new_element)
 end
 # This method takes in two arguments, an Array and a new element to be added to the array. it uses the .insert method to add the new element to the 4th index of the array.
 
