@@ -33,10 +33,9 @@ end
 def using_uniq(array)
   array.uniq
 end
-# This method takes in an argument of an Array and uses the .uniq method to remove any duplicate items.
 
-def using_flatten
-  
+def using_flatten(array)
+  array.flatten
 end
 # This method takes in an argument of an Array that contains other arrays and uses the .flatten method to return an array of strings.
 
