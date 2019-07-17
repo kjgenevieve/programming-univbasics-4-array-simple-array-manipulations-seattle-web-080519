@@ -37,14 +37,13 @@ end
 def using_flatten(array)
   array.flatten
 end
-# This method takes in an argument of an Array that contains other arrays and uses the .flatten method to return an array of strings.
 
-def using_delete
-  
+def using_delete(array, string)
+  array.delete(string)
 end
 # This method takes in two arguments, an Array and a String, and uses the .delete method to remove any items from the array that are equal to that string.
 
-def using_delete_at
-  
+def using_delete_at(array, i)
+  array.delete(i)
 end
 # This method takes in two arguments, an Array and an Integer and deletes the element at the index of the array that is equal to that integer.
